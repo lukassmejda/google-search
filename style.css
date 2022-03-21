@@ -1,0 +1,80 @@
+.body {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    justify-content: center;
+}
+
+.advance {
+    display: flex;
+    width: 100vw;
+    background-color: red;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 100%;
+    
+}
+
+li {
+    flex-basis: 200px;
+    
+    list-style: none;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    /* background-color: bisque; */
+    width: 100%;
+    padding: 10px;
+}
+
+input {
+    width: 200px;
+    margin: 10px;
+}
+
+a {
+    border: 1px solid black;
+    padding: 5px;
+    color:black;
+    background-color: white;
+    text-decoration: none;
+    
+}
+
+.inputs {
+    display:flex;
+    justify-content: center;
+    flex-basis: 100%;
+    /* flex-direction: column; */
+}
+
+
+.dupa {
+    display:flex;
+    /* flex-direction: column; */
+}
